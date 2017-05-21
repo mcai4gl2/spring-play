@@ -1,6 +1,8 @@
 Spring Play
 ===========
 
+[![CircleCI](https://circleci.com/gh/mcai4gl2/spring-play.svg?style=svg)](https://circleci.com/gh/mcai4gl2/spring-play)
+
 This project contains a list of small setup to demo how to use different Spring features.
 
 The first concentration is around how to configure Spring beans via a mix of java and xml. 
