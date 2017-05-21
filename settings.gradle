@@ -1,0 +1,4 @@
+rootProject.name = 'spring-play'
+include 'library'
+include 'app'
+
