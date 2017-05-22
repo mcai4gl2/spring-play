@@ -10,3 +10,4 @@ out
 .gradle
 generated-sources
 artifacts
+.DS_Store

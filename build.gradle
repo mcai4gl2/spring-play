@@ -36,3 +36,9 @@ subprojects {
         testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
     }
 }
+
+task testReport(type: TestReport) {
+    destinationDir = file("$buildDir/reports/allTests")
+    // Include the results from the `test` task in all subprojects
+    reportOn subprojects*.test
+}

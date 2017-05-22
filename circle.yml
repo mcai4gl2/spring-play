@@ -1,0 +1,7 @@
+general:
+  artifacts:
+    - "build/reports"
+
+test:
+  override:
+    - ./gradlew clean build test testReport
