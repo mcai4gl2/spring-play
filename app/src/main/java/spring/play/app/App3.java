@@ -4,6 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import spring.play.lib.LibraryBean;
 
+/**
+ * Spring mixing XML and Java configuration but loading from java.
+ */
 public class App3 {
 
     public static void main(String[] args) {

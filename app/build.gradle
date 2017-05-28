@@ -1,4 +1,6 @@
 dependencies {
     compile project(':library')
     compile 'org.springframework:spring-context:4.3.8.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.5.3.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '1.5.3.RELEASE'
 }

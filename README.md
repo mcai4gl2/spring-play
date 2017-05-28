@@ -13,3 +13,4 @@ We are looking at this because over years, Spring has developed different ways t
 * Only via Java
 * Mixing xml and Java but context is created from xml
 * Mixing xml and Java but context is created from Java
+* Creating bean via spring-boot
